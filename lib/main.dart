@@ -29,6 +29,14 @@ class MyApp extends StatelessWidget{
                         ),
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: TextField(
+                        decoration: InputDecoration(
+                          hintText: "email",
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
