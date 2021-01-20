@@ -31,6 +31,13 @@ class Auth extends StatelessWidget{
                         ),
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: FlatButton(
+                        child: Text("Submit"),
+                        onPressed: () => {},
+                      ),
+                    ),
                   ],
                 ),
               ),
